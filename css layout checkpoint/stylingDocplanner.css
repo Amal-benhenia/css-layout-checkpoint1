@@ -1,0 +1,170 @@
+nav li{
+    list-style-type: none;
+    margin-right: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+nav ul {
+    display:flex;
+    justify-content: flex-end;
+    
+    
+}
+.nav-items a {
+    text-decoration: none;
+    color:darkgray;
+
+
+
+}
+.nav-items a:hover {
+    color: #00b390;
+
+}
+.nav-items:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+html, body {
+    margin:0;
+    padding:10%;
+}
+.general-info {
+    text-align: center;
+}
+.general-info h1 {
+    color:#00b390;
+    font-size: 2.125rem;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.paragraph {
+    
+        display: grid;
+        width: 540px;
+        grid-template-columns: 120px 120px 120px;
+        align-items: start;
+        justify-content: space-between;
+        margin: auto;
+    
+      }
+.paragraph p {
+    color: #747474;
+    font-family:Arial, Helvetica, sans-serif;
+}    
+.services {
+
+    display: grid;
+    width: 540px;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    justify-content: space-between;
+    margin: auto;
+}
+.services p {
+    font-family: Work Sans,Arial,sans-serif;
+    color: #ffff;
+}
+.services h3 {
+    font-family: Work Sans,Arial,sans-serif;
+    color:#ffff;
+
+}
+
+.for-patients {
+    background-color:#00ccb1;
+}
+.for-doctors {
+    background-color: #3d83df;
+
+}
+.for-clinics {
+    background-color: #1b2734;
+}
+.logo{
+    height: auto;
+    width: auto; /* makes the div same size as content */
+    float: left;
+}
+.text{
+    height: auto;
+    width: auto; /* makes the div same size as content */
+    float: left; 
+}
+.who-are-we h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#00b390;
+}
+.text p {
+    color:#747474;
+
+}
+.local {
+
+    display: grid;
+    width: 540px;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    justify-content: space-between;
+    margin: auto;
+    }
+    .who-we-are {
+        float:left; 
+       
+        width:25%;
+        height:280px;
+    }
+    
+    .campany-names {
+        display: flex;
+justify-content:space-between;
+}
+ .stats {
+     background-color:#e5faf8;
+     height:300px;
+    
+     
+ }
+ .introduce {
+    float:left;
+    width:180px;
+    height:300px;
+   margin: 0%;
+ 
+     
+     }
+.numbers {
+    display: flex;
+    justify-content: space-between;
+   
+           
+           
+}  
+.countries h3{
+    
+    font-family: Work Sans,Arial,sans-serif;
+    color: #00b390;
+
+}   
+.countries p {
+    color:#747474;
+
+}
+.images {
+    border-radius:10%;
+}
+
+     
+    
+
+
+
+
+
+
+
+ 
+
+            
